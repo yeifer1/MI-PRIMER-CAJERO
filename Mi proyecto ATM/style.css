@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(25deg, #34495e 50%, #2c3e50 50%);
+}
+
+.form-body {
+    background-image: url("https://us.123rf.com/450wm/pakete/pakete1506/pakete150600061/41385750-cajero-con-pantalla-de-visualizaci%C3%B3n-botones-lector-de-tarjetas-dispensador-de-efectivo-y-la.jpg?ver=6");
+    width: 400px;
+    height: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 2px #0b2138;
+    margin: 10px;
+}
+
+.form-body img {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(58, 116, 166);
+    margin-bottom: 25px;
+}
+.form-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 65%;
+    padding-left: 10px;
+    color: rgb(13, 14, 14);
+    border: 1px solid #0f0f0f;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+    border-bottom-left-radius: 10px;
+    font-size: 2rem;
+    outline: none;
+}
+.form-body input {
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color:rgb(55, 146, 202)
+}
+
+.form-body input:hover{
+   transition: .5s;
+   border: 1px solid #572f04;
+   color:#442505 ;
+}
+
+.form-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: #35587b;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2pxpx solid #171718;
+    transition: all .5s ease;
+
+
+}
+
+
+.form-body button :hover{
+    color: aqua;
+    border: 2px solid #3498db;
+    background:linear-gradient(#34495e,#2c3e50) ;
+}
+

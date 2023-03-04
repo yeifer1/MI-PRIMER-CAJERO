@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(25deg, #34495e 50%, #2c3e50 50%);
+}
+
+.form-body2 {
+    background-image: url("https://us.123rf.com/450wm/pakete/pakete1506/pakete150600061/41385750-cajero-con-pantalla-de-visualizaci%C3%B3n-botones-lector-de-tarjetas-dispensador-de-efectivo-y-la.jpg?ver=6");
+    width: 400px;
+    height: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 4px #0f7cea;
+    margin: 10px;
+
+}
+
+.form-body2 img {
+    
+    width: 80px;
+    display:block;
+    margin: 10px auto;
+    border-radius: 100px;
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(58, 116, 166);
+    margin-bottom: 15px;
+}
+.form-body2 input {
+    display: block;
+    margin: auto;
+    height: 15px;
+    width: 60%;
+    padding-left: 5px;
+    color: rgb(21, 22, 22);
+    border: 1px solid #141414;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+    border-bottom-left-radius: 10px;
+    font-size: 0.8rem;
+    outline: none;
+}
+.form-body2 input {
+    margin-top: 15px;
+}
+
+.form-body2 input:hover{
+    transition: .5s;
+    border: 1px solid #eb871c;
+    color:#eb871c ;
+ }
+ 
+

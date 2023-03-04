@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+     
+    <div class="form-body2">
+      <h2 class="titulo"> esta es tu cuenta Pedro</h2>
+        <img src="usuario.ingr.jpg" alt="">
+          <h1 class="titulo">Por favor seleccione su transación</h1>
+  
+          <h3>Saldo actual: <span id="saldo">1000</span></h3>
+ 
+          <form>
+            <div>
+              <b>Depósito</b>
+              <input type="checkbox" value="1" onchange="javascript:showContent('deposito',this)" />
+              <div id="deposito" class="hide">
+                Ingresa el Depósito a Realisar <input type="text" name="valor1">
+                <br><input type="button" value="Enviar" onclick="deposito()">
+              </div>
+            </div>
+         
+            <div>
+              <b>Retiro</b>
+              <input type="checkbox" value="1" onchange="javascript:showContent('retiro',this)" />
+              <div id="error"></div>
+              <div id="retiro" class="hide">
+                Ingresa el retiro a Realisar <input type="text" name="valor2">
+                <br><input type="button" value="retirar" onclick="retiro()">
+              </div>
+            </div>
+          </form>
+    </div> 
+    <script src="main.js"></script>
+</body>
+</html>
